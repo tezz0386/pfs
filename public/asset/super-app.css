@@ -1,0 +1,55 @@
+			.sidenav {
+			height: 100%;
+			width: 150px;
+			position: fixed;
+			z-index: 1;
+			top: 0;
+			left: 0;
+			background-color: #343a40;
+			overflow-x: hidden;
+			transition: 0.5s;
+			}
+			.sidenav a {
+			text-decoration: none;
+			font-size: 20px;
+			color: #818181;
+			display: block;
+			transition: 0.3s;
+			}
+			.sidenav a:hover {
+			color: #f1f1f1;
+			}
+			.content{
+			margin-left: 150px;
+			transition: 0.5s;
+			}
+			i.custom {font-size: 1.3em;}
+			.my-hr{
+				border-color: white;
+			}
+table{
+	font-size: 12px !important;
+}
+table tr{
+	padding:3px  !important;
+}
+table td{
+	padding:3px !important;
+}
+table th{
+	padding: 3px !important;
+}
+/*.active{
+	color: white !important;
+}*/
+.bread{
+	background-color: #6a737b; padding: 5px; color: #2f4a61;
+	font-size: 18px;
+}
+.bread a{
+	color: black;
+	font-size: 18px;
+}
+.bread a:hover{
+    color: white;
+}
